@@ -87,9 +87,24 @@ header {
 }
 
 .image {
-  display: block;
   width: 600px;
   height: 275px;
   background: no-repeat center/100% url(../img/primarchs.jpg);
 }
 
+.flags {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.races__flag {
+  height: 300px;
+  width: 300px;
+}
+
+.logo {
+  width: 50%;
+  height: 50%;
+}
