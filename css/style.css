@@ -50,24 +50,46 @@ header {
 .hero {
   display: flex;
   background: #1f2937;
-  height: 450px;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
   /* flex: 1; */
+}
+
+.hero__about {
+  width: 600px;
+  height: 275px;
 }
 
 .main__title {
   color: #f9faf8;
   font-size: 48px;
   font-weight: 900;
+  margin: auto;
 
 }
 
 .main__text {
   color: #e5e7eb;
+  margin: auto;
+  font-size: 18px;
+}
+
+.btn {
+  background: #3882f6;
+  color: #fff;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  /* margin: auto; */
+
 }
 
 .image {
-  background: url(../img/primarchs.jpg);
-  width: auto;
-  height: auto;
+  display: block;
+  width: 600px;
+  height: 275px;
+  background: no-repeat center/100% url(../img/primarchs.jpg);
 }
 
