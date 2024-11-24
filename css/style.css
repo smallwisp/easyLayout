@@ -123,3 +123,30 @@ header {
 .flag__info {
   text-align: center;
 }
+
+.quote {
+  background: #e5e7eb;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.quote__text {
+  padding: 100px 500px;
+}
+
+
+.quote__main {
+  font-size: 36px;
+  font-weight: 400;
+  font-style: italic;
+  color: #1f2937;
+  margin: 0;
+}
+
+.quote__author {
+  font-weight: 900;
+  text-align: right;
+  font-size: 24px;
+  margin-bottom: 0;
+}
